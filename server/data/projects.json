@@ -1,0 +1,32 @@
+{
+  "activeId": "project_match_001",
+  "projects": [
+    {
+      "id": "project_match_001",
+      "name": "ISCL 2026 - Match 01 Finals (RCB vs CSK)",
+      "timelines": [
+        {
+          "id": "tl_1",
+          "name": "Timeline 1: Match highlights",
+          "tracks": [
+            {
+              "id": "tr_1",
+              "name": "V1: Action",
+              "clips": [
+                {
+                  "id": "c1",
+                  "name": "Six 1",
+                  "startTime": 15,
+                  "endTime": 22
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "theme": "dark",
+      "createdAt": "2026-11-02T21:05:44.710Z",
+      "updatedAt": "2026-11-08T07:55:36.825Z"
+    }
+  ]
+}
