@@ -8,18 +8,6 @@ Built for the Indian Softball Cricket League (ISCL), it enables match officials 
 
 ---
 
-## ⚡ Highlights & Key Capabilities
-
-- **Direct Live Stream Ingestion**: Connect to YouTube Live streams, HLS (`.m3u8`) feeds, RTMP streams, or local video files seamlessly.
-- **Sub-Second Frame-Accurate Scrubbing**: High-speed scrubbing and frame-stepping (`Left` / `Right` arrows) for pinpoint in-and-out mark extraction.
-- **Live Tagging & Marker Presets**: Single-key hotkeys for rapid cricket event labeling (Six, Four, Wicket, Milestone, Celebration, Custom Callout).
-- **Multi-Timeline Sequencing**: Create and organize multiple timeline cuts within a single match session.
-- **Real-Time Dynamic Overlays**: Built-in broadcast bug generator, team logos (RCB, CSK, Bengaluru Kempegowda, Gadag Gliders, Himachal Titans, KSPL), and sponsor banners.
-- **Hardware-Accelerated Export**: Background FFmpeg transcoding engine rendering 1080p60 MP4 exports with NVENC/D3D11 hardware acceleration.
-- **Fully Portable Architecture**: One-click zero-install launch scripts (`START_ISCL_STUDIO.bat`) with bundled runtime resolution.
-
----
-
 ## 🏗️ Tech Stack
 
 - **Desktop Shell**: [Electron](https://www.electronjs.org/) (Chromium + Node.js runtime) with GPU acceleration and zero-copy rasterization.
