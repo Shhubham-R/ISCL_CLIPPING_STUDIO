@@ -20,16 +20,7 @@ Built for the Indian Softball Cricket League (ISCL), it enables match officials 
 
 ---
 
-## 🏗️ Architecture & Tech Stack
-
-```mermaid
-graph TD
-    UI[Electron Desktop / React UI] -->|IPC / HTTP / WebSocket| SVR[Express Streaming Server]
-    SVR -->|Stream Extraction| YTDLP[yt-dlp Live Resolver]
-    SVR -->|Hardware Transcode / Clip Render| FFMPEG[FFmpeg Engine]
-    SVR -->|Project & Trim State| DATA[(JSON State Store)]
-    FFMPEG -->|Rendered MP4 / Filmstrips| OUT[Output Directory / Social Export]
-```
+## 🏗️ Tech Stack
 
 - **Desktop Shell**: [Electron](https://www.electronjs.org/) (Chromium + Node.js runtime) with GPU acceleration and zero-copy rasterization.
 - **Frontend**: React, modern CSS design system, responsive timeline track canvas, SVG iconography.
